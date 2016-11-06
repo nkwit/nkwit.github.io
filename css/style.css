@@ -1,0 +1,153 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+  html {
+    font-family:"Merriweather";
+    font-size:11pt;
+  }
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.page {
+    width: 21cm;
+    min-height: 29.7cm;
+    padding: 2cm;
+    margin: 1cm auto;
+   
+    border-radius: 5px;
+    background: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.subpage {
+    padding: 1cm;
+   
+    height: 256mm;
+   
+}
+    
+@page {
+    size: A4;
+    margin: 0;
+}
+@media print {
+    .page {
+        margin: 0;
+        border: initial;
+        border-radius: initial;
+        width: initial;
+        min-height: initial;
+        box-shadow: initial;
+        background: initial;
+        page-break-after: always;
+    }
+}
+
+.bottomrow {
+    border-bottom-style: solid;
+    border-bottom-width: 1pt;
+    border-bottom-color: lightgrey;
+}
+
+.toprow {
+    border-top-style: solid;
+    border-top-width: 1pt;
+    border-top-color: lightgrey;
+    font-variant:small-caps;
+    font-family: "Open Sans";
+}
+
+.leftbar {
+    
+    font-variant:small-caps;
+}
+
+.rightrow {
+    border-left-style: solid;
+    border-left-width: 1pt;
+    border-left-color: lightgrey;
+    padding-left: .5em;
+    margin-left: 2em;
+    margin-bottom: .25em;
+}
+
+p {
+    margin: .1em .1em .1em .1em;
+}
+
+.small {
+    margin: .1em .1em .1em .1em;
+}
+
+#none {
+    margin: 0 0 0 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+.none {
+    margin: 0 0 0 0;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+}
+
+.int {
+    margin: 0 0 0 1em;
+}
+
+.title {
+    font-weight: 600;
+    margin: 0 0 0 0em;
+    padding: 0 0 0 1em;
+}
+.subtitle {
+    font-style: oblique;
+    margin: 0 0 0 1em;
+    padding: 0 0 .5em 1em;
+    line-height: .75em;
+}
+.main {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    line-height: .75em;
+}
+.subMain {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    line-height: 1em;
+}
+
+.vericaltext{
+    width:1px;
+    word-wrap: break-word;
+    font-family: monospace; /* this is just for good looks */
+}
+
+.bg {
+    background: #4acaa8;
+}
+
+.imgR {
+    height: 4em; 
+   
+}
+
+.container1 {
+  margin: 0 auto;
+  width: 90%;
+}
+.container {
+  width: 90%;
+}
